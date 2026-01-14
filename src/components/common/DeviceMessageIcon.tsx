@@ -1,4 +1,4 @@
-export default function DeviceMessageLogo() {
+export default function DeviceMessageIcon() {
     return (
         <svg
             width="24"

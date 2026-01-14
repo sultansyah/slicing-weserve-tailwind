@@ -1,4 +1,4 @@
-export default function GlobalLogo() {
+export default function GlobalIcon() {
     return (
         <svg
             width="24"

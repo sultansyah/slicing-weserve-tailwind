@@ -1,5 +1,5 @@
-import DeviceMessageLogo from "../common/DeviceMessageLogo";
-import GlobalLogo from "../common/GlobalLogo";
+import DeviceMessageIcon from "../common/DeviceMessageIcon";
+import GlobalIcon from "../common/GlobalIcon";
 import illustrationHeader from "../../assets/illustration-header.png";
 
 export default function HeroSection() {
@@ -8,7 +8,7 @@ export default function HeroSection() {
             <div className="flex flex-row items-center justify-between">
                 <div className="flex flex-col gap-y-10">
                     <div className="w-fit gap-x-2 px-3 py-2 small-badge flex flex-row bg-white rounded-full">
-                        <GlobalLogo />
+                        <GlobalIcon />
                         <p className="text-base font-semibold text-indigo-950">
                             We host more than 120,000 websites
                         </p>
@@ -36,7 +36,7 @@ export default function HeroSection() {
                         </a>
 
                         <a href="#" className="flex gap-x-2 text-violet-700 font-semibold">
-                            <DeviceMessageLogo />
+                            <DeviceMessageIcon />
                             Schedule a Demo
                         </a>
                     </div>
