@@ -1,4 +1,5 @@
 import Navbar from "../layout/Navbar";
+import FeaturesSection from "../sections/FeaturesSection";
 import HeroSection from "../sections/HeroSection";
 import PatnersSection from "../sections/PatnersSection";
 
@@ -8,6 +9,7 @@ export default function Home() {
             <Navbar />
             <HeroSection />
             <PatnersSection />
+            <FeaturesSection />
         </div>
     );
 }
