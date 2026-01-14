@@ -1,4 +1,4 @@
-import DeviceMessageIcon from "../common/DeviceMessageIcon";
+import DeviceMessageIcon from "../icons/DeviceMessageIcon";
 import GlobalIcon from "../common/GlobalIcon";
 import illustrationHeader from "../../assets/illustration-header.png";
 

@@ -1,4 +1,4 @@
-import FeatureShadowIcon from "./FeatureShadowIcon";
+import FeatureShadowIcon from "../icons/FeatureShadowIcon";
 
 type Props = {
     icon: React.ReactNode;
@@ -34,7 +34,7 @@ export default function FeatureItem({
                     className
                         ? className
                         : `${showShadow ? "relative" : ""
-                        } my-card flex flex-col gap-y-5 rounded-2xl p-5 ${backgroundColor}`
+                        } my-card flex flex-col gap-y-8 rounded-2xl py-8 px-5 ${backgroundColor}`
                 }
             >
                 {icon}

@@ -1,5 +1,8 @@
 import FeatureItem from "../common/FeatureItem";
-import HierarchySquareIcon from "../common/HierarchySquareIcon";
+import Cube3DIcon from "../icons/Cube3DIcon";
+import DriverRefreshIcon from "../icons/DriverRefreshIcon";
+import HierarchySquareIcon from "../icons/HierarchySquareIcon";
+import StatusUpIcon from "../icons/StatusUpIcon";
 
 export default function FeaturesSection() {
     return (
@@ -15,13 +18,13 @@ export default function FeaturesSection() {
                     href="#"
                 />
                 <FeatureItem
-                    icon={<HierarchySquareIcon />}
-                    title="Extra Layers"
-                    description="Making your project more secure avoiding DDoS"
+                    icon={<Cube3DIcon />}
+                    title="Customizable"
+                    description="Only install what your business needs to grow"
                     href="#"
                 />
                 <FeatureItem
-                    icon={<HierarchySquareIcon />}
+                    icon={<StatusUpIcon />}
                     title="AI Automation"
                     description="Making your project more secure avoiding DDoS"
                     href="#"
@@ -32,9 +35,9 @@ export default function FeaturesSection() {
                     showShadow={true}
                 />
                 <FeatureItem
-                    icon={<HierarchySquareIcon />}
-                    title="Extra Layers"
-                    description="Making your project more secure avoiding DDoS"
+                    icon={<DriverRefreshIcon />}
+                    title="Auto-Scaling"
+                    description="Have a long weekend without worrying any loss"
                     href="#"
                 />
             </div>

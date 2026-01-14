@@ -1,4 +1,4 @@
-import Logo from "../common/logo";
+import Logo from "../icons/Logo";
 import NavItem from "../common/NavItem";
 
 export default function Navbar() {
